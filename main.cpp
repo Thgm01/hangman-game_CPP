@@ -16,10 +16,7 @@ int main()
     cout << "***   Welcome to the Hangman Game   ***\n";
     cout << "***************************************\n\n";
 
-    bool hanged = false;
-    bool win = false;
-
-    while(!hanged && !win)
+    while(!hanged() && !win())
     {
         cout << "Wrong guesses: ";
         for(char letter : wrong_guesses)
@@ -69,4 +66,18 @@ bool have_letter(char guess)
         }
     }
     return false;
+}
+
+bool win()
+{
+    for(char letter : SECRET_WORD)
+    {
+        if(!tried[letter]) return false;
+    }
+    return true;
+}
+
+bool hanged()
+{
+    return wrong_guesses.size() > 5;
 }
