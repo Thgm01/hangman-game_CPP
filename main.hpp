@@ -1,0 +1,1 @@
+bool have_letter(char guess);
