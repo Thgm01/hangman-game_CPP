@@ -12,6 +12,29 @@ string secret_word;
 map<char, bool> tried;
 vector<char> wrong_guesses;
 
+void save_file(vector<string> new_list)
+{
+    ofstream file;
+    file.open("words.txt");
+
+    if(file.is_open())
+    {
+        file << new_list.size() << endl;
+
+        for(string word : new_list)
+        {
+            file << word << endl;
+        }
+
+        file.close();
+    }
+    else
+    {
+        cout << "Erro! File can not be open\n";
+        exit(0);
+    }
+}
+
 vector<string> read_file()
 {
     ifstream file;
@@ -67,6 +90,14 @@ int main()
     else 
     {
         cout << "Congratulations! You got right the Secret Word!\n";
+
+        cout << "Do you want to add a new word? (Y/N)\n";
+        char answer;
+        cin >> answer;
+        if(answer == 'Y')
+        {
+            add_new_word();
+        }
     }
 }
 
@@ -158,4 +189,16 @@ void draw_word()
 
     secret_word = words[rand_number];
 
+}
+
+void add_new_word()
+{
+    cout << "Type the new word in capital letters: ";
+    string new_word;
+    cin >> new_word;
+
+    vector<string> words = read_file();
+    words.push_back(new_word);
+
+    save_file(words);
 }
