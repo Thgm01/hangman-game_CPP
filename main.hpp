@@ -5,3 +5,4 @@ void print_header();
 void print_wrong_guesses();
 void print_secret_word();
 void guess();
+void draw_word();
