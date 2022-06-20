@@ -14,9 +14,9 @@
 #include "print_secret_word.hpp"
 #include "guess.hpp"
 #include "add_new_word.hpp"
-#include "have_letter.hpp"
-#include "read_file.hpp"
-#include "save_file.hpp"
+//#include "have_letter.hpp"
+//#include "read_file.hpp"
+//#include "save_file.hpp"
 
 
 using namespace std;
