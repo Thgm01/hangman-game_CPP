@@ -1,0 +1,3 @@
+C:/Users/thi-m/CLionProjects/hangman-game_CPP/cmake-build-debug/CMakeFiles/hangman_game_CPP.dir
+C:/Users/thi-m/CLionProjects/hangman-game_CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thi-m/CLionProjects/hangman-game_CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

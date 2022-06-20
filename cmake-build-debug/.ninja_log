@@ -1,0 +1,16 @@
+# ninja log v5
+32	643	6774586536929950	CMakeFiles/hangman_game_CPP.dir/have_letter.cpp.obj	52efcd9283ed676e
+28	747	6774586537917306	CMakeFiles/hangman_game_CPP.dir/draw_word.cpp.obj	827c2c42ea380308
+748	1467	6774586545068178	CMakeFiles/hangman_game_CPP.dir/hanged.cpp.obj	5f6991725c53020d
+0	1482	6774586545207807	CMakeFiles/hangman_game_CPP.dir/add_new_word.cpp.obj	886c531617b5e0b2
+1468	2236	6774586552847386	CMakeFiles/hangman_game_CPP.dir/header_print.cpp.obj	14c9df3ce32b6b81
+647	2369	6774586554183821	CMakeFiles/hangman_game_CPP.dir/guess.cpp.obj	de076f4971d7c73a
+1483	2584	6774586556328063	CMakeFiles/hangman_game_CPP.dir/print_secret_word.cpp.obj	768aee09060d5eb9
+2370	3146	6774586561893170	CMakeFiles/hangman_game_CPP.dir/print_wrong_guesses.cpp.obj	51a25e7ffec59274
+2236	3359	6774586563768161	CMakeFiles/hangman_game_CPP.dir/main.cpp.obj	a727055f81e240a4
+2584	3546	6774586565942351	CMakeFiles/hangman_game_CPP.dir/save_file.cpp.obj	14c4aeebb0e437af
+3359	4060	6774586571098538	CMakeFiles/hangman_game_CPP.dir/win.cpp.obj	5ce6a2fd752a1ab7
+3147	4116	6774586571627131	CMakeFiles/hangman_game_CPP.dir/read_file.cpp.obj	eb76108e87027175
+4117	4419	6774586574651104	hangman_game_CPP.exe	646cb2129c91f2aa
+9	1993	6774598579567363	CMakeFiles/hangman_game_CPP.dir/main.cpp.obj	a727055f81e240a4
+1994	2777	6774598587333665	hangman_game_CPP.exe	646cb2129c91f2aa
